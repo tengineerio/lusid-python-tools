@@ -781,8 +781,8 @@ def load_from_data_frame(
     sub_holding_keys:               str
                                     The sub holding keys to use for this request. Can be a list of property keys or a list of
                                     columns in the dataframe to use to create sub holdings
-    :param bool holdings_adjustment_only: Whether to use the adjust_holdings api call rather than set_holdings when
-    working with holdings
+    holdings_adjustment_only:       bool
+                                    Whether to use the adjust_holdings api call rather than set_holdings when working with holdings
 
     Returns
     -------
